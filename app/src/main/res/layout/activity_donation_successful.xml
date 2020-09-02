@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_scrollFlags="scroll"
+    tools:context=".DonationSuccessfulActivity">
+
+    <TextView
+        android:id="@+id/donation_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="THANK YOU SO MUCH!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/canadian_red_cross" />
+
+    <TextView
+        android:id="@+id/donation_success_message"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_gravity="center"
+        android:text="YOUR DONATION HAS BEEN REGISTERED!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/donation_charity_name"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:text="Charity Name: The Salvation Army"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/donation_date"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:text="Donation Date:1st January, 2020"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/redirect_to_home_page"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@drawable/read_more_button"
+        android:text="Back to Home Page" />
+</LinearLayout>

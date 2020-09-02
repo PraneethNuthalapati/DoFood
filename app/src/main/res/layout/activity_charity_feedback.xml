@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CharityFeedback">
+
+    <TextView
+        android:id="@+id/donation_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="WRITE YOUR FEEDBACK HERE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="257dp"
+        app:srcCompat="@drawable/donor" />
+
+    <EditText
+        android:id="@+id/feedback_text"
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/donation_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Your Feedback will be directly sent!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/redirect_to_home_page"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_height="43dp"
+        android:textColor="#000000"
+        android:background="@drawable/read_more_button"
+        android:text="Send Feedback" />
+
+
+</LinearLayout>

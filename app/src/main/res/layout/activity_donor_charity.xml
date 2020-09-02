@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorCharityActivity"
+    android:background="@drawable/screen_layout">
+
+    <ImageView
+        android:id="@+id/img_charity"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/canadian_red_cross"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/text_About"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/img_charity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Donation Details (Required):"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        />
+    <EditText
+        android:id="@+id/text_desc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif-black"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginLeft="15dp"
+        android:gravity="left"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_About"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+    <TextView
+        android:id="@+id/img_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/text_desc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Image (Optional):"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        />
+
+
+    <Button
+        android:id="@+id/Button_Browse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_text"
+        android:text="Browse"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/img_browse"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/Button_Browse"
+        android:src="@drawable/icon_image"
+        />
+
+    <Button
+        android:id="@+id/btnDonate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Donate"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

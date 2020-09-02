@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.common.AboutUsFragment">
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:id="@+id/about_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:elevation="3dp"
+                android:text="@string/about_us_title"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/about_us_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/abouts_intro"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/about_us_title"
+                app:layout_constraintTop_toBottomOf="@+id/about_us_title" />
+
+            <TextView
+                android:id="@+id/service_title"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/service_fields_title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/about_us_intro"
+                app:layout_constraintTop_toBottomOf="@id/about_us_intro" />
+
+            <TextView
+                android:id="@+id/service_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="5dp"
+                android:text="@string/service_fields_description"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/service_title"
+                app:layout_constraintTop_toBottomOf="@id/service_title"
+                android:elevation="3dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

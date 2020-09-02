@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="@drawable/background"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            app:srcCompat="@drawable/c1" />
+
+        <TextView
+            android:id="@+id/storyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="The Slavation Army"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/storyDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="The salvation army has received 100 donation in the past weeks from multiple Donars" />
+
+        <Button
+            android:id="@+id/btnReadMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/read_more_button"
+            android:text="Read Story" />
+
+    </LinearLayout>
+
+</LinearLayout>

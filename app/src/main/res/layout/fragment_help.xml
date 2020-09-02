@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.common.HelpFragment">
+
+    <ScrollView android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+
+                android:id="@+id/help_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:elevation="3dp"
+                android:text="@string/help_and_faq_title"
+                android:textAlignment="textStart"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/help_step1_title"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/how_to_donate_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_title"
+                app:layout_constraintTop_toBottomOf="@+id/help_title" />
+
+            <TextView
+                android:id="@+id/help_step1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/how_to_donate"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step1_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step1_title" />
+
+            <TextView
+                android:id="@+id/help_step2_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/how_to_update_user_details_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_step1"
+                app:layout_constraintTop_toBottomOf="@id/help_step1" />
+
+            <TextView
+                android:id="@+id/help_step2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/update_user_details"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step2_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step2_title" />
+
+            <TextView
+                android:id="@+id/help_step3_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/how_to_update_user_profile_photo_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_step2"
+                app:layout_constraintTop_toBottomOf="@id/help_step2" />
+
+            <TextView
+                android:id="@+id/help_step3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/user_profile_photo"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step3_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step3_title" />
+
+            <TextView
+                android:id="@+id/help_step4_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/what_after_donation_is_done_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_step3"
+                app:layout_constraintTop_toBottomOf="@id/help_step3" />
+
+            <TextView
+                android:id="@+id/help_step4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/donation_done"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step4_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step4_title" />
+
+            <TextView
+                android:id="@+id/help_step5_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/check_for_past_activities_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_step4"
+                app:layout_constraintTop_toBottomOf="@id/help_step4" />
+
+            <TextView
+                android:id="@+id/help_step5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/check_past_activity"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step5_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step5_title" />
+
+            <TextView
+                android:id="@+id/help_step6_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/enroll_for_volunteer_activities_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_step5"
+                app:layout_constraintTop_toBottomOf="@id/help_step5" />
+
+            <TextView
+                android:id="@+id/help_step6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/enroll_volunteer"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step6_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step6_title" />
+
+            <TextView
+                android:id="@+id/help_step7_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:elevation="3dp"
+                android:text="@string/need_additional_help_titlle"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/help_step6"
+                app:layout_constraintTop_toBottomOf="@id/help_step6" />
+
+            <TextView
+                android:id="@+id/help_step7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                android:padding="5dp"
+                android:text="@string/need_more_help_description"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/help_step7_title"
+                app:layout_constraintTop_toBottomOf="@id/help_step7_title" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

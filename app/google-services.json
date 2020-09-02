@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "857969124223",
+    "firebase_url": "https://dofood-3a613.firebaseio.com",
+    "project_id": "dofood-3a613",
+    "storage_bucket": "dofood-3a613.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857969124223:android:e8a9097be34d42a2b2304a",
+        "android_client_info": {
+          "package_name": "dal.cs.ca.dofood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857969124223-1fv61rl26ghv0615mhi8dd763p0j4uh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dal.cs.ca.dofood",
+            "certificate_hash": "0cf6bb3c20e3f607d499ea5ed45ba076b0fda7b9"
+          }
+        },
+        {
+          "client_id": "857969124223-sfshfpvlp5lkm9e3p1j19il4mhcdpobh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQG8rFVFBQqXubGZyU9igRqySViJblaPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857969124223-sfshfpvlp5lkm9e3p1j19il4mhcdpobh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

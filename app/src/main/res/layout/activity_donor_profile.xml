@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonorProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_person_blue_200dp"
+        android:transitionName="img_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="317dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:cursorVisible="true"
+        android:textSize="12sp"
+        android:hint="Enter Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <ImageView
+        android:id="@+id/ivEditName"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        android:src="@drawable/ic_edit_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ivDoneName"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:clickable="false"
+        android:src="@drawable/ic_done_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:src="@drawable/ic_edit_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <ImageView
+        android:id="@+id/ivDonePassword"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="44dp"
+        android:clickable="false"
+        android:src="@drawable/ic_done_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <ImageView
+        android:id="@+id/ivEditOrg"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        android:src="@drawable/ic_edit_black_24dp" />
+
+    <ImageView
+        android:id="@+id/ivDoneOrg"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="44dp"
+        android:clickable="false"
+        android:src="@drawable/ic_done_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/ivEditContact"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:src="@drawable/ic_edit_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/ivDoneContact"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="44dp"
+        android:clickable="false"
+        android:src="@drawable/ic_done_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/ivAddress"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:src="@drawable/ic_edit_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <ImageView
+        android:id="@+id/ivDoneAddress"
+        android:layout_width="22dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="44dp"
+        android:clickable="false"
+        android:src="@drawable/ic_done_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/tvMedal"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="108dp"
+        android:text="Medal Earned : Elite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="317dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="16dp"
+        android:background="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMedal" />
+
+    <TextView
+        android:id="@+id/tvOrganization"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Organization"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <EditText
+        android:id="@+id/etOrganization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:hint="Update Organization Info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/tvContact"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="47dp"
+        android:text="Contact Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="47dp"
+        android:textSize="12sp"
+        android:hint="Enter Contact Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="78dp"
+        android:text="Address"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="78dp"
+        android:hint="Update Address"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:hint="update password"
+        android:textSize="13sp"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Image to change photo"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
+</androidx.constraintlayout.widget.ConstraintLayout>

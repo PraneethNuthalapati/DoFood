@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_volunteer"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_profile_volunteer"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_volunteer_history"
+            android:icon="@drawable/ic_donatiion_history"
+            android:title="@string/volunteer_history" />
+        <item
+            android:id="@+id/nav_about_us_volunteer"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_help_and_documentation_volunteer"
+            android:icon="@drawable/ic_help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/nav_logout_volunteer"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+
+</menu>
